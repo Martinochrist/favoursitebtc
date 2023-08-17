@@ -5,7 +5,7 @@ const testimonials = [
       job: "CEO, Fashworks",
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png",
       testimonial:
-        " investing with BAYYA Investment, we have worked together to get a clear understandable plan for our future which gives us confidence and security knowing what kind of lifestyle we can lead. In addition, we have seen gains in our portfolio in a short space of time which is a reassuring indicator. Our meetings are consultative and personal with all decisions made after full discussion and clear explanation.",
+        " investing with BAYYA Investment, we have worked together to get a clear understandable plan for our future which gives us confidence and security knowing what kind of lifestyle we can lead. In addition, we have seen gains in our portfolio in a short space of time which is a reassuring indicator.",
     },
     {
       name: "Katey Topaz",
@@ -26,7 +26,7 @@ const testimonials = [
       job: "CEO,Zeal Wheels",
       image: "",
       testimonial:
-        "We have been with BAYYA Investment now for three years. His small team have made an effort to get to know us and so the service we receive feels very personal. Jeremy has helped us to focus on what we want out of life and is helping us realise our plans. The peace of mind we have from knowing our finances are being so well managed is priceless. BAYYA Investment provides an excellent service, be it on a business or on a personal level. I have found the company's advice regarding investment opportunities particularly helpful - everything is explained fully, no matter how complex the subject. I am pleased to see the results in comparison to the experiences one reads or hears about in the media. I get the feeling that Brett Investment are ahead of the game",
+        " Investing with BAYYA is one of the great choices i made for my self because i am in so much profit of over 20,000 dollers investing my Usdt",
     },
   ];
   

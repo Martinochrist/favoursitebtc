@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(2, 2, 2);
+  }
+  
+  ul{
+    top:0;
+    background-color:black;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    position:fixed;
+    overflow:hidden;
+    width:100%;
+    
+  }
+  li a{
+    padding:20px;
+    display:block;
+    text-decoration:none;
+    color:white;
+    font-family:"Gabriola";
+    font-size:2vw;
+  }
+  ul a:hover{
+    color:white;
+  }
+  ul a:hover:not(.active){
+    background-color:gray;
+  }
+  .one{
+    margin:0;
+    font-family:"Gabriola";
+    font-size:10vw;
+    color:gold;
+    padding:50px;
+  }
+  .image_placeholder1{
+    background-color:white;
+    padding:60px;
+    margin:0 auto;
+    width:400px;
+    height:800px;
+    font-family:"Gabriola";
+    font-size:2vw;
+    
+  }
+  .new_acc{
+    color:black;
+    font-family:"Gabriola";
+    font-size:2vw;
+    
+  }
+  

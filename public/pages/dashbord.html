@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+				initial-scale=1.0">
+    <title>Dasbord</title>
+    <link rel="stylesheet" href="/public/css/dashbord.css">
+    <link rel="stylesheet" href="/public/css/responsivedash.css">
+</head>
+
+<body>
+
+    <!-- for header part -->
+    <header>
+        <div>
+            <h1 class="logow">BAYYA</h1>
+        </div>
+        <div class="logosec">
+            <div> <a href="/" style="z-index: 999999999;">
+                    <img class="imgm" src="img/IMG-20230717-WA0002.jpg" alt=""
+                        style="width: 40px;  margin-top: -5px; border-radius: 20px; ">
+                </a></div>
+
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210182541/Untitled-design-(30).png"
+                class="icn menuicn" id="menuicn" alt="menu-icon">
+        </div>
+       
+        <div class="message">
+            <div class="circle"></div>
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183322/8.png" class="icn" alt="">
+            <div class="dp">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210180014/profile-removebg-preview.png"
+                    class="dpicn" alt="dp">
+            </div>
+        </div>
+
+    </header>
+
+    <div class="main-container">
+        <div class="navcontainer">
+            <nav class="nav">
+                <div class="nav-upper-options">
+                    <div class="nav-option option1">
+                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210182148/Untitled-design-(29).png"
+                            class="nav-img" alt="dashboard">
+                        <h3> Dashboard</h3>
+                    </div>
+
+                    <div class="option2 nav-option">
+                        <a href="https://www.dailyfx.com/">
+                            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183322/9.png"
+                                class="nav-img" alt="articles">
+                        </a>
+                        <h3> Articles</h3>
+                    </div>
+
+                    <div class="nav-option option3">
+                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183321/6.png" class="nav-img" alt="report">
+                        <h3>cashier</h3>
+                    </div>
+
+                    <div class="nav-option option4">
+                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183323/10.png"
+                            class="nav-img" alt="institution">
+                        <h3>Transaction</h3>
+                    </div>
+
+                    <div class="nav-option option5">
+                        <a href="https://www.tradingview.com/chart/oFh52y5s/?symbol=CRYPTO%3ABTCUSD">
+                            <img src="data:image/png;base64,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"
+                            class="nav-img" alt="blog">
+                        </a>
+                        <h3>Chart</h3>
+                    </div>
+
+                    <div class="nav-option logout">
+                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183321/7.png"
+                            class="nav-img" alt="logout">
+                        <h3>Logout</h3>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <div class="main">
+
+            <div class="searchbar2">
+                <input type="text" name="" id="" placeholder="Search">
+                <div class="searchbtn">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+                        class="icn srchicn" alt="search-button">
+                </div>
+            </div>
+
+            <div class="box-container">
+
+                <div class="box box1">
+                    <div class="text">
+                        <h2 class="topic-heading"><span>$</span>0.00</h2>
+                        <div class="btcwdgt-price" data-bw-theme="light" data-bw-cur="usd"></div>
+                        <h2 class="topic">Balance</h2>
+                    </div>
+
+                    <img src="" alt="">
+                </div>
+
+                <div class="box box2">
+                    <div class="text">
+                        <h2 class="topic-heading"><span>$</span>0.00</h2>
+                        <h2 class="topic">Total bonus</h2>
+                    </div>
+                </div>
+
+                <div class="box box3">
+                    <div class="text">
+                        <h2 class="topic-heading"><span>$</span>0.00</h2>
+                        <h2 class="topic">Total Eaning</h2>
+                    </div>
+                </div>
+
+                <div class="box box4">
+                    <div class="text">
+                        <h2 class="topic-heading"></h2>
+                        <h2 class="topic"></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="report-container">
+                <div class="report-header">
+                    <h1 class="recent-Articles">Welcome! </h1>
+                </div>
+                <section class="ts-features-col" style="margin-bottom: 0px;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div style=" width: 100%;">
+                                    <div
+                                        style="width: 100%; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; text-align: right; line-height:14px; font-size: 12px; box-sizing:content-box; font-feature-settings: normal; text-size-adjust: 100%; padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:40px;">
+                                            <embed
+                                                src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover="
+                                                width="100%" height="36" scrolling="auto" marginwidth="0"
+                                                marginheight="0" frameborder="0" border="0"
+                                                style="border:0;margin:0;padding:0;" />
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="https://widgets.coingecko.com/coingecko-coin-list-widget.js"></script>
+                    <coingecko-coin-list-widget  coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd" locale="en"></coingecko-coin-list-widget>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="/public/jasceripy/dashboard.js"></script>
+</body>
+</html>
+</body>
+</html>
